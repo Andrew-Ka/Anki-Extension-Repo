@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Anki Extension",
+    "description": "Bring Anki to the Web with additional support", 
+    "version": "1.0",
+    "action": {
+        "default_title": "Click to open panel",
+        "default_popup": "scripts/index.html"
+    },
+    "permissions": [
+    "sidePanel"
+    ],
+    "side_panel": {
+    "default_path": "scripts/index.html"
+    }
+    
+}

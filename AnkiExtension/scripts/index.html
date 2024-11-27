@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Anki HTML</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="service_worker.js"></script>
+</head>
+<body>
+    <div id = "header">
+        <div class="dropdown">
+            <button id="deckDropBtn" class="button">Decks</button>
+            <!--class="dropdown-content"-->
+            <ul id="DeckList" >
+                <ul id="placeholderDecks">
+                    <li id="SuperDeck1">
+                        Super Deck 1
+                        <ul id="SubDeck">
+                        <li>Deck 1</li>
+                        <li>Deck 2</li>
+                        <li>Deck 3</li>
+                        <li>Deck 4</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Super Deck 2
+                    </li>
+                </ul>
+            </ul>
+        </div>
+        <h3>Anki AWAY!</h3>
+    </div>
+    
+    
+    <!--
+    <form action="index.html" method="POST">
+        <input type="text" name="Front Card" placeholder="Front" id="BasicCardFront">
+    </form>
+
+    <input type="submit" value="Submit">
+    
+    <form>
+        <label for="BasicCardFront">Front</label><br>
+        <textarea id="BasicCardFront" rows="4" cols="50" autocomplete="on" placeholder="Front" ></textarea>
+        
+    </form>
+    <form action="index.html" method="POST">
+        <input type="text" name="Back Card" placeholder="Back" id="BasicCardBack">
+    </form>
+    -->
+    <div contenteditable="true" class="userInput" id="BasicCardFront">Type Here</div>
+    <div contenteditable="true" class="userInput" id="BasicCardBack">Type Here</div>
+    <button type="submit" id="submitButton" class="button">Save Card</button>
+
+
+    <div id="notificationBar">
+        placeholder
+    </div>
+
+    <footer id="footer">
+        Current Deck: None
+    </footer>
+    
+</body>
+</html>

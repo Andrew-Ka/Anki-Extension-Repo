@@ -1,0 +1,233 @@
+body{
+    background-color: rgb(38, 38, 38);
+}
+
+/* 
+going to use h3 for all titles 
+*/
+#header{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+h3{
+    color: rgb(150, 150, 150);
+    text-align: center;
+}
+
+#deckDropBtn{
+    /*background-color: #3498DB;
+    color: white;*/
+    padding: 16px;
+    font-size: 14px;
+    /*border: none;*/
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button{
+    background-color: #3498DB;
+    color: white;
+    border: none;
+}
+
+.button:hover, .button:focus {
+    background-color: #2980b9;
+}
+
+/*Scrollbar stuff*/
+::-webkit-scrollbar{
+    width:10px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(54, 54, 54);
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(52 152 219);
+    border-radius: 12px;
+}
+
+/* Dropdown button on hover & focus 
+#deckDropBtn:hover, #deckDropBtn:focus {
+    background-color: #2980B9;
+}*/
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+ul{height:200px; width:18%;}
+ul{overflow:hidden; overflow-y:scroll;}
+  
+/* Dropdown Content (Hidden by Default) */
+/*was class b4 called dropdown-content*/
+#DeckList {
+    display: none;
+    position: absolute;
+    /*background-color: #297fb9c6;*/
+    background-image: linear-gradient(#34aaf8fe, #34aaf872);
+    min-width: 160px;
+    width: 80vw;
+    max-width:max-content;
+    /*So to get the width of the screen, you use
+    vw, where 1vw = 1% of the view width
+    same works with vh for height*/
+    color:antiquewhite;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+  
+/* Links inside the dropdown */
+#DeckList a {
+    color: rgb(248, 24, 24);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#submitButton{
+    min-width: 100px;
+    height: 35px;
+    width: 85%;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+
+}
+
+/*
+
+.show {
+    display:block;
+}
+
+form{
+    /*align-items: center;*
+    width: auto;
+    height: 30%;
+    min-height: 30%;
+}
+
+
+input[type=text]{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    width: 95%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 4px;
+    outline: none;
+    background-color: rgb(54, 54, 54);
+    color: rgb(215, 215, 215);
+    
+}
+
+textarea{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=text]:focus{
+    /*border: 3px solid #555;
+    border-color: aqua; *
+    background-color: rgb(83, 83, 83);
+}
+*/
+
+.userInput{
+    background-color: rgb(54, 54, 54);
+    color: white;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+
+    box-sizing: border-box;
+    width: 85%;
+    display: block;
+    margin: auto;
+    height: 25vh;
+    max-height: 30vh;
+    overflow-y: auto;
+
+    margin-bottom: 18px;
+    padding: 12px 20px;
+    /*margin: 8px 5%;*/
+    border-radius: 8px;
+}
+
+.userInput:focus{
+    /*border: 3px solid #555;
+    border-color: linear-gradient(#34aaf8fe, #34aaf872); */
+    background-color: rgb(83, 83, 83);
+    outline: none;
+}
+
+#notificationBar{
+    box-sizing: border-box;
+    width: 60vw;
+    height: fit-content;
+    /*max-width: min-content;*/
+    bottom: 2vh;
+    position: fixed;
+    
+    color: antiquewhite;
+    background-color: rgb(220, 27, 27);
+    font-size: large;
+    
+    text-align: center;
+    border-radius: 8px;
+    
+    /*margin: 0 auto;
+    this did not horizontally align, but
+    quick fix is below
+    */
+    left:50%;
+    transform: translate(-50%);
+    /*display: none;*/
+    opacity: 0;
+}
+
+
+@keyframes notifBarAnimIn {
+    0%{
+        bottom: 0vh;
+        opacity: 0;
+    }
+    100%{
+        bottom: 2vh;
+        opacity: 1;
+    }
+}
+
+@keyframes notifBarAnimOut {
+    0%{
+        bottom: 2vh;
+        opacity: 1;
+    }
+    100%{
+        bottom: 0vh;
+        opacity: 0;
+    }
+}
+
+
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
