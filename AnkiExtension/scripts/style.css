@@ -175,6 +175,28 @@ input[type=text]:focus{
     outline: none;
 }
 
+#navigationBar{
+    box-sizing: border-box;
+    position: fixed;
+    bottom:8vh;
+    width:fit-content;
+    margin:auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 14px;
+}
+
+a:link{
+    color:rgb(52 152 219);
+    text-decoration: none;
+    
+}
+a:hover{
+    color:rgb(49, 204, 91);
+    text-decoration: underline;
+}
+
 #notificationBar{
     box-sizing: border-box;
     width: 60vw;
@@ -222,6 +244,7 @@ input[type=text]:focus{
         opacity: 0;
     }
 }
+
 
 
 footer{
