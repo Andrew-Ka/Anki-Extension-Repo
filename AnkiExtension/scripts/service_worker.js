@@ -40,12 +40,14 @@ const result = await invoke('deckNames', 6);
 console.log(`got list of decks: ${result}`);
 */
 
+//this function is an async function to get the user's decks
 async function getDecks(){
     let deckNames = await invoke('deckNames', 6);
     //console.log(deckNames);    
     return deckNames;
 }
 
+//this is an async function to submit the card
 async function writeCard() {
     const frontCardText = document.getElementById('BasicCardFront').innerHTML;
     console.log(frontCardText);
@@ -53,6 +55,7 @@ async function writeCard() {
 
     try {
         await invoke('addNote', 6, {note:{deckName:currentDeck, modelName:"Basic", fields:{Front:frontCardText, Back:backCardText}}});
+        //reset the div's when complete
         document.getElementById('BasicCardFront').innerHTML = "";
         document.getElementById('BasicCardBack').innerHTML = "";
     } catch (error) {
@@ -69,7 +72,7 @@ async function writeCard() {
 }
 
 
-
+//the main function ofcourse
 async function main(){
     try{    
         const deckResult = await getDecks();
@@ -83,7 +86,7 @@ async function main(){
     }catch (error){
         window.alert("Anki must be open and the AnkiConnect Extension Installed");
         let stringError = "Must have Anki open. After opening Anki, toggle this window.";
-        notifcationAlert(stringError);
+        //notifcationAlert(stringError);
         //specific animation
         let notifBar = document.getElementById('notificationBar');
         notifBar.innerHTML = stringError;
@@ -99,6 +102,8 @@ async function main(){
     
 }
 
+
+//to let the user know what deck
 var currentDeck = "None";
 async function updateCurrentDeck(deckName){
     currentDeck = deckName;
@@ -106,6 +111,7 @@ async function updateCurrentDeck(deckName){
     footer.textContent = "Current Deck: " + currentDeck;
 }
 
+//this is to actually add the decks to the DOM
 async function displaydecks(deckNames) {
     const deckList = document.getElementById('DeckList');
 
