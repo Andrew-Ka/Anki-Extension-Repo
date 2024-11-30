@@ -10,6 +10,7 @@ Using this Application is quite simple.
 1. ❗❗❗MAKE SURE YOU HAVE THE PREREQUISITES❗❗❗
 2. Install the extension (you're in the right place) 😁
 
+<br>
 
 ### Prerequisites
 
@@ -26,10 +27,26 @@ Requirements to use this extension correctly include
       6. Press "OK", restart Anki (close it out and open it again), and it should be set up! 😎
     - For more information about the Anki Connect API and Add-on, head over [here to Foosoft's Website (the developer)](https://foosoft.net/projects/anki-connect/)
   
-
+<br>
   
 
 ### Installing
+
+To install, clone this repository.
+For my non-computer people, this is for you:
+- Click the button that says "Code" (it's green, top right-ish)
+- On the drop-down, click "Download Zip"
+- Move it to wherever you want to, then unzipp it 🤐
+
+<br>
+
+Now that you have it cloned, we need to add it to Chrome's extension panel. This requires Chrome to be in developer mode (since it's not on the Chrome Web Store 🥲...yet).
+- Open Chrome, Click the 3 Vertical Dots (top right), Click Extensions, then "Manage Extensions"
+- At the top right, toggle developer mode   
+We can now get the extension pulled up on Chrome
+- Click "Load Unpacked" (top left)
+- On the File Explorer Window that popped up, navigate to the location where you kept the unzipped folder and select that folder
+- 
 
 A step by step series of examples that tell you how to get a development
 environment running
