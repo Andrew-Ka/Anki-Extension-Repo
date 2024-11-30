@@ -7,7 +7,7 @@ This is an Anki Extension (as the name suggests) to use on Chrome for making Car
 ## Getting Started
 
 Using this Application is quite simple. 
-1. ❗❗❗MAKE SURE YOU HAVE THE PREREQUISITES❗❗❗
+1. ❗❗❗MAKE SURE YOU HAVE THE [PREREQUISITES](prerequisites)❗❗❗
 2. Install the extension (you're in the right place) 😁
 
 <br>
@@ -54,7 +54,7 @@ We can now get the extension pulled up on Chrome
 
 To test this application, press the extension button. A menu should appear that looks similar to the one below.
 ![Test Image a](https://github.com/user-attachments/assets/7b94f068-d125-4406-86ed-6c78432e0787)   
-If Anki is not open, and/or the add-on (stated in the prerequisites) is not installed, then an error will be thrown.
+If Anki is not open, and/or the add-on (stated in the [prerequisites](prerequisites)) is not installed, then an error will be thrown.
 
 ![Test Image c](https://github.com/user-attachments/assets/ce3f68e6-a784-4e9c-bad0-67947a32d717)
 ![Test Image d](https://github.com/user-attachments/assets/e59ca12b-d796-445f-aa76-26a62e92bbab)
@@ -76,31 +76,47 @@ This was chosen, however, for the specific reason that you can insert images! So
 
 ## Deployment
 
-Add additional notes to deploy this on a live system
+This is most definitely not the final version, so there will be updates. I, as a novice programmer, have no idea how to send updates, so check back here now and then to see if there are updates.      
+Future plans include UI fixes, such as fixing the deck menu, cleaning up the content-editable div problem, and other minor fixes.    
+Major future plans include utilizing AI to both create cards for decks (using particular trained models based on the subject) as well as scrapping FREE websites that contain Anki decks (free because I don't want to get sued 😬).     
+This will be more applicable as it will contain used decks that have been tried and tested. 
 
+<br>
+ 
 ## Built With
 
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
+  - [Open Source Licences]([https://creativecommons.org/](https://opensource.org/license/mit)) - Used to choose
     the license
+  - VS Code - as my code editor
+  - [Foosoft's AnkiConnect API](https://foosoft.net/projects/anki-connect/) - this is the backbone of all the
+    user account interaction
+  - 
 
 ## Contributing
+
+I don't have any contributing markdown files. If you want to add to this project, feel free to make a pull request. If you want to merge,    
+I'll review your changes and happily add to the extension! 😊 (I might need a little time, but I'll get it done ✅)
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
 of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
+- Current Version: 1.0.0
+Version List (Major.Minor.Patch)
+- 11/30/24 - 1.0.0
+
+
+We use [Semantic Versioning](http://semver.org/) for versioning.   
+For the versions available (for the template), see the [tags on this
 repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
 ## Authors
 
   - **Billie Thompson** - *Provided README Template* -
     [PurpleBooth](https://github.com/PurpleBooth)
-  -   
+  - [Andrew Kalathra](https://github.com/Andrew-Ka) - That's me 😎
+  - [Foosoft](https://foosoft.net/projects/anki-connect/) - AnkiConnect API
 
 
 
@@ -111,6 +127,7 @@ License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
+  - Hat tip to Foosoft (once again ⭐)
+  - Thanks to Gemini 🤖 for helping me debug 🪰
+  - Inspiration drawn for Anki themselves as well as Google's Side Panel 👾
+  - For all the medical students out there (including you Sis 😉)
