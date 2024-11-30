@@ -1,20 +1,31 @@
 # Anki Extension
 
-One Paragraph of the project description
+For all Anki enthusiasts out there, or any normal people, I bring you another portal to the Anki Realm!
+This is an Anki Extension (as the name suggests) to use on Chrome for making Cards/Notes while browsing the web.
 
 
 ## Getting Started
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+Using this Application is quite simple. 
+1. ❗❗❗MAKE SURE YOU HAVE THE PREREQUISITES❗❗❗
+2. Install the extension (you're in the right place) 😁
+
 
 ### Prerequisites
 
 Requirements to use this extension correctly include 
 - Having Anki on your PC. [Download Here](https://apps.ankiweb.net/)
-- Logged in on Anki
+- Logged in on Anki 🥸
 - Having the Foosoft AnkiConnect Add-on [Link Here](https://ankiweb.net/shared/info/2055492159)
+    - Many don't have this extension yet, so here's a quick review of it:
+      1. Open Anki (duh) 😏
+      2. Click on "Tools" (top left)
+      3. On the drop-down, click "Add-ons"
+      4. On the new window that popped open, click "Get Add-ons..." (top right)👀
+      5. On the new window that popped open, enter the code "2055492159"
+      6. Press "OK", restart Anki (close it out and open it again), and it should be set up! 😎
+    - For more information about the Anki Connect API and Add-on, head over [here to Foosoft's Website (the developer)](https://foosoft.net/projects/anki-connect/)
+  
 
   
 
