@@ -1,4 +1,4 @@
-# Anki Extension
+# Anki Extension 🩺
 
 For all Anki enthusiasts out there, or any normal people, I bring you another portal to the Anki Realm!
 This is an Anki Extension (as the name suggests) to use on Chrome for making Cards/Notes while browsing the web.
@@ -46,37 +46,33 @@ Now that you have it cloned, we need to add it to Chrome's extension panel. This
 We can now get the extension pulled up on Chrome
 - Click "Load Unpacked" (top left)
 - On the File Explorer Window that popped up, navigate to the location where you kept the unzipped folder and select that folder
-- 
+- Optionally, you can pin the extension for ez access.
 
-A step by step series of examples that tell you how to get a development
-environment running
+<br>
 
-Say what the step will be
+## Sample tests
 
-    Give the example
+To test this application, press the extension button. A menu should appear that looks similar to the one below.
+![Test Image a](https://github.com/user-attachments/assets/7b94f068-d125-4406-86ed-6c78432e0787)   
+If Anki is not open, and/or the add-on (stated in the prerequisites) is not installed, then an error will be thrown.
 
-And repeat
+![Test Image c](https://github.com/user-attachments/assets/ce3f68e6-a784-4e9c-bad0-67947a32d717)
+![Test Image d](https://github.com/user-attachments/assets/e59ca12b-d796-445f-aa76-26a62e92bbab)
 
-    until finished
+Once Anki is open (and the add-on is installed), then toggle the extension.   
+If no error is thrown, you can start writing Cards. Might I suggest you pick a deck first before writing cards, otherwise an error will be thrown.
+  
+![Test Image f](https://github.com/user-attachments/assets/2f24545e-3ebb-4614-9127-6be42f182cc7)    
 
-End with an example of getting some data out of the system or using it
-for a little demo
+After writing and submitting your card, double-check (for this test run) your deck. Open Anki to the deck you wrote to and check if your card is there. 😏 (Pls tell me it worked 😉)
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Sample Tests
-
-Explain what these tests test and why
-
-    Give an example
+<br>
 
 ### Style test
 
-Checks if the best practices and the right coding style has been used.
+This extension uses a content editable div for the input...which isn't safe all the time (in your case, since this is a personal extension, there shouldn't be harm unless you try hacking yourself🤔❓)   
+This was chosen, however, for the specific reason that you can insert images! So feel free to drag and drop as needed.
 
-    Give an example
 
 ## Deployment
 
@@ -104,6 +100,7 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
   - **Billie Thompson** - *Provided README Template* -
     [PurpleBooth](https://github.com/PurpleBooth)
+  -   
 
 
 
