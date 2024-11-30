@@ -53,16 +53,20 @@ We can now get the extension pulled up on Chrome
 ## Sample tests
 
 To test this application, press the extension button. A menu should appear that looks similar to the one below.
-![Test Image a](https://github.com/user-attachments/assets/7b94f068-d125-4406-86ed-6c78432e0787)   
+
+![Test Image a](https://github.com/user-attachments/assets/290c1b23-47a8-483d-a6ae-ad33ed63209b)    
+
 If Anki is not open, and/or the add-on (stated in the [prerequisites](prerequisites)) is not installed, then an error will be thrown.
 
-![Test Image c](https://github.com/user-attachments/assets/ce3f68e6-a784-4e9c-bad0-67947a32d717)
-![Test Image d](https://github.com/user-attachments/assets/e59ca12b-d796-445f-aa76-26a62e92bbab)
+
+![Test Image c](https://github.com/user-attachments/assets/e8a5336b-3e1d-4100-acc8-46ea520b1e75)
+  
+![Test Image d](https://github.com/user-attachments/assets/686742d5-bc8d-4014-ab72-1405d4baaa99)    
 
 Once Anki is open (and the add-on is installed), then toggle the extension.   
-If no error is thrown, you can start writing Cards. Might I suggest you pick a deck first before writing cards, otherwise an error will be thrown.
-  
-![Test Image f](https://github.com/user-attachments/assets/2f24545e-3ebb-4614-9127-6be42f182cc7)    
+If no error is thrown, you can start writing Cards. Might I suggest you pick a deck first before writing cards, otherwise an error will be thrown.    
+
+![Test Image f](https://github.com/user-attachments/assets/b275e3d1-7125-4c10-a23e-d3cbb35d8c33)
 
 After writing and submitting your card, double-check (for this test run) your deck. Open Anki to the deck you wrote to and check if your card is there. 😏 (Pls tell me it worked 😉)
 
