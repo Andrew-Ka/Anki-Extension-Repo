@@ -36,7 +36,7 @@ To install, clone this repository.
 For my non-computer people, this is for you:
 - Click the button that says "Code" (it's green, top right-ish)
 - On the drop-down, click "Download Zip"
-- Move it to wherever you want to, then unzipp it 🤐
+- Move it to wherever you want to, then unzip it 🤐
 
 <br>
 
