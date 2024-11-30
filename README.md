@@ -90,15 +90,13 @@ This will be more applicable as it will contain used decks that have been tried 
   - VS Code - as my code editor
   - [Foosoft's AnkiConnect API](https://foosoft.net/projects/anki-connect/) - this is the backbone of all the
     user account interaction
-  - 
+
 
 ## Contributing
 
 I don't have any contributing markdown files. If you want to add to this project, feel free to make a pull request. If you want to merge,    
 I'll review your changes and happily add to the extension! 😊 (I might need a little time, but I'll get it done ✅)
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
