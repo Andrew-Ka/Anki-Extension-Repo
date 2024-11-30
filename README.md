@@ -42,7 +42,7 @@ For my non-computer people, this is for you:
 
 Now that you have it cloned, we need to add it to Chrome's extension panel. This requires Chrome to be in developer mode (since it's not on the Chrome Web Store 🥲...yet).
 - Open Chrome, Click the 3 Vertical Dots (top right), Click Extensions, then "Manage Extensions"
-- At the top right, toggle developer mode   
+- At the top right, toggle developer mode       
 We can now get the extension pulled up on Chrome
 - Click "Load Unpacked" (top left)
 - On the File Explorer Window that popped up, navigate to the location where you kept the unzipped folder and select that folder
